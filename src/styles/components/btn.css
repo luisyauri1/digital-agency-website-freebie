@@ -1,0 +1,40 @@
+button {
+  all: unset;
+}
+
+.btn-primary {
+  background: var(--color-5454D4);
+  padding: 12px 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-FFFFFF);
+  font-size: 16px;
+  font-family: NunitoSans-Bold, serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn-primary {
+    font-size: 20px;
+    padding: 16px 27px;
+  }
+}
+
+.btn-primary__icon {
+  margin-left: 8px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--color-FFFFFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-FFFFFF);
+  padding: 12px 21px;
+  font-size: 16px;
+  cursor: pointer;
+}

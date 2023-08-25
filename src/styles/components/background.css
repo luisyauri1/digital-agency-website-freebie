@@ -1,0 +1,47 @@
+.bg {
+  z-index: -1;
+  overflow: hidden;
+  width: 94vw;
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .bg {
+    display: none;
+  }
+}
+
+.bg__img {
+  position: relative;
+  width: 630px;
+  height: 667px;
+  left: -156px;
+  top: -125px;
+}
+
+.desktop-bg {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .desktop-bg {
+    display: flex;
+    z-index: -1;
+    overflow: hidden;
+    width: 97vw;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.desktop-bg__img {
+  position: relative;
+  width: 1275px;
+  height: 1084px;
+  left: -514px;
+  right: 0;
+  top: -255px;
+  bottom: 0;
+  margin: auto;
+}

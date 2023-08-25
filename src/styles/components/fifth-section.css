@@ -1,0 +1,148 @@
+.fifth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 89px;
+}
+
+@media screen and (min-width: 1440px) {
+  .fifth-section {
+    margin-bottom: 209px;
+  }
+}
+
+.responsive-fifth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .responsive-fifth-section {
+    display: none;
+  }
+}
+
+.scroll-container {
+  margin-bottom: 50px;
+  padding: 24px;
+  background-color: var(--color-1E1E20);
+  border-radius: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+  .scroll-container {
+    margin-bottom: 0;
+  }
+}
+
+.scroll-container__img {
+  width: 100%;
+}
+
+.scroll-actions {
+  display: flex;
+}
+
+.scroll-actions__btn {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-FFFFFF33);
+  width: 38px;
+  height: 38px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.scroll-actions__btn--purple {
+  background-color: var(--color-5454D4);
+}
+
+.scroll-actions__btn-icon {
+  transform: rotate(180deg);
+}
+
+.scroll-actions__btn-space {
+  margin-right: 12px;
+}
+
+.desktop-fifth-section {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-fifth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.scroll-desktop {
+  display: flex;
+  flex-direction: row;
+  height: 417px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.scroll-container-1 {
+  position: relative;
+  top: -55px;
+}
+
+.scroll-container-2 {
+  position: relative;
+  margin: 0 24px;
+}
+
+.scroll-container-3 {
+  position: relative;
+  bottom: -55px;
+}
+
+.scroll-desktop-actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.scroll-desktop-actions__btn {
+  all: unset;
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: var(--color-121213);
+  margin: 0 3px;
+}
+
+.scroll-desktop-actions__btn--active {
+  width: 16px;
+  border-radius: 4px;
+  background-color: var(--color-5454D4);
+}
+
+.fifth-section__line {
+  position: relative;
+  top: 0;
+  margin: 45px auto auto 0;
+  width: 61px;
+}
+
+@media screen and (min-width: 1024px) {
+  .fifth-section__line {
+    margin: auto auto auto 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .fifth-section__line {
+    width: 95px;
+  }
+}

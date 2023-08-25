@@ -1,0 +1,138 @@
+.third-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 95px;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .third-section {
+    margin-bottom: 101px;
+  }
+}
+
+.rectangle-box {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .rectangle-box {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 1833px;
+    z-index: -1;
+  }
+}
+
+.rectangle-box-bg {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .rectangle-box-bg {
+    display: flex;
+    position: absolute;
+    left: -601px;
+    z-index: -1;
+  }
+}
+
+.third-section__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .third-section__box {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+.box-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 10px;
+  width: 100%;
+}
+
+.box-service__circle {
+  width: 69px;
+  height: 69px;
+  background-color: var(--color-19191B);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.box-service__circle--purple {
+  background-color: var(--color-5454D41A);
+}
+
+.box-service__circle--red {
+  background-color: var(--color-F040371A);
+}
+
+.box-service__circle--yellow {
+  background-color: var(--color-FEDC5A1A);
+}
+
+.box-service__title {
+  text-align: center;
+  font-family: NunitoSans-Bold, serif;
+  font-size: 24px;
+  letter-spacing: -0.75px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .box-service__title {
+    font-size: 28px;
+  }
+}
+
+.box-service__description {
+  color: var(--color-FFFFFFB2);
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  width: 300px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .box-service__description {
+    font-size: 20px;
+    letter-spacing: -1.5px;
+  }
+}
+
+.third-section__add {
+  width: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+  .third-section__add {
+    transform: rotate(25.344deg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .third-section__add {
+    width: 42px;
+    transform: rotate(25.344deg);
+  }
+}
