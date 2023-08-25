@@ -227,6 +227,8 @@ button {
 }
 
 .nav__menu-icon {
+  all: unset;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
