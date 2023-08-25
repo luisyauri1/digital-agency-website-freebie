@@ -1,10 +1,4 @@
 import './style.css';
-// import { setupCounter } from './counter.ts';
-
-// document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-//   <div>
-// < h1>Vite + TypeScript</h1>
-//   </div>
-// `;
-//
-// setupCounter(document.querySelector<HTMLButtonElement>('#counter')!);
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();

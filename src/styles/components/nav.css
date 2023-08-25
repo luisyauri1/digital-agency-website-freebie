@@ -8,6 +8,7 @@
 .nav__logo {
   width: 115px;
   height: 34px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1440px) {
