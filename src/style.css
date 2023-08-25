@@ -428,6 +428,20 @@ button {
   }
 }
 
+.second-section__circle-bg {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .second-section__circle-bg {
+    display: flex;
+    position: absolute;
+    top: -464px;
+    left: -228px;
+    z-index: -1;
+  }
+}
+
 .second-section__triangle {
   width: 65px;
 }
@@ -483,11 +497,41 @@ button {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 95px;
+  position: relative;
 }
 
 @media screen and (min-width: 1440px) {
   .third-section {
     margin-bottom: 101px;
+  }
+}
+
+.rectangle-box {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .rectangle-box {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 1833px;
+    z-index: -1;
+  }
+}
+
+.rectangle-box-bg {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .rectangle-box-bg {
+    display: flex;
+    position: absolute;
+    left: -601px;
+    z-index: -1;
   }
 }
 
