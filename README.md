@@ -17,7 +17,7 @@ To create this landing page, we've utilized the following technologies:
 ## UX/UI Design
 
 - The design for this website was crafted by [Fauzan Ardhiansyah](https://www.instagram.com/ozanardhiansyah23/).
-- We based our design on the following Figma project: [Digital Agency Website - Freebie](https://www.figma.com/community/file/1058842196634115002)
+- The development is based on the following Figma project: [Digital Agency Website - Freebie](https://www.figma.com/community/file/1058842196634115002)
 
 ## Getting Started
 
